@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}",],
   theme: {
     extend: {
       fontFamily:{
@@ -9,7 +9,8 @@ module.exports = {
       },
       colors:{
         'mycol':['#06A5E1'],
-        'mycol2':['#081321e7']
+        'mycol2':['#081321e7'],
+        'mycol3':['#A0A8B3']
       },
       margin:{
         'mymar':['500px']
@@ -24,8 +25,25 @@ module.exports = {
         'transup':'transup 1s ease-in-out'
       },
       width:{
-        'mywid':['85%']
-      }
+        'mywid':['85%'],
+        'newid':['32%'],
+        'newwid1':['48%'],
+        'adv':['700px'],
+        'fle1':['65%'],
+        'fle2':['35%']
+      },
+      backgroundImage: {
+        'mybac': "url('img/backglobe1.png')",
+      },
+      letterSpacing:{
+        'mylet':['3px']
+      },
+      lineHeight:{
+        'myheig':['60px']
+      },
+      fontSize:{
+        'myfon':['35px']
+      },
     },
   },
   plugins: [],

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="output.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -27,9 +28,9 @@
 </head>
 
 <body class="font-pop m-0">
-    <header >
+    <header>
         <div class="text-white font-normal px-6 py-3 text-sm lg:flex justify-between items-center hidden"
-            style="background-image: linear-gradient(#081321e7, #081321e7), url(https://preview.redd.it/tried-making-a-nature-scene-using-botaniq-v0-ex8vko4tfeg91.png?auto=webp&s=69b4313800d7a861957c243dc3ff4b83be3a02a9);">
+            style="background-image: linear-gradient(#081321e7, #081321e7), url(img/top.webp);">
             <div>
                 <ul class="flex">
                     <li class="text-red-7">Contact Us at 01-9534872 <span class="text-mycol-0 mx-2">•</span></li>
@@ -46,14 +47,15 @@
             </div>
         </div>
     </header>
+
     <section class="sticky top-0  z-50 shadow-lg">
         <nav class="px-6  py-1 flex  justify-between items-center bg-white">
             <div>
                 <img class="lg:w-48 w-40" src="img/logo2.png" alt="">
             </div>
             <div class="lg:me-24">
-                <div class="lg:!hidden text-3xl me-3 cross block"> <i class="fa-solid fa-bars "></i></div>
-                <div class="hidden lg:!hidden text-3xl me-3 cross1 "><i class="fa-solid fa-xmark"></i></div>
+                <div class="lg:!hidden text-3xl me-3 cross block cursor-pointer"> <i class="fa-solid fa-bars "></i></div>
+                <div class="hidden lg:!hidden text-3xl me-3 cross1 cursor-pointer"><i class="fa-solid fa-xmark"></i></div>
                 <ul
                     class="navbar z-50 lg:flex px-8 -mt-mymar lg:!m-0 duration-0  lg:!duration-0  lg:!p-0 w-full lg:gap-7 fixed top-[68px] right-0 lg:static bg-indigo-950 text-white lg:bg-white lg:text-black">
                     <li class="my-8"><a class="hover:text-mycol-0" href="">Home</a> <span
@@ -65,7 +67,7 @@
                             class="text-mycol-0 ms-5 hidden xl:inline-block">•</span></li>
                     <li class="my-8"><a class="hover:text-mycol-0" href="">Services</a> <span
                             class="text-mycol-0 ms-5 hidden xl:inline-block">•</span></li>
-                    <li class="my-8"><a class="hover:text-mycol-0" href="">Contact Us</a></li>
+                    <li class="my-8"><a class="hover:text-mycol-0" href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
             <div class="hidden lg:block">
@@ -119,17 +121,141 @@
         </div>
     </section>
 
-    <section class="lg:w-mywid mx-auto ">
-        <div class="lg:mx-2 mx-5 my-20 text-center lg:text-start  lg:w-2/4">
-            <p class="font-ren text-3xl font-bold text-mycol-0">Dream Vacation Destination</p>
-            <h2 class="lg:text-5xl text-3xl font-bold my-3 text-mycol2-0">Plan the Trip of a Lifetime with Ease</h2>
-            <p>Whether you're looking for a romantic getaway, a family-friendly adventure, or a solo journey to explore
-                the world, a travel agency can provide you with a custom-tailored itinerary that exceeds your
-                expectations.</p>
-            <a class=" px-4 py-3 inline-block my-4 bg-mycol-0 hover:scale-110    hover:duration-300 duration-300 text-white  text-sm font-bold rounded-md "
-                href="">START HERE</a>
+    <section class="bg-mybac bg-center lg:bg-none">
+        <div class="lg:w-mywid mx-auto ">
+            <div class="flex items-center justify-between  ">
+                <div class="lg:mx-2 mx-5 my-20 text-center lg:text-start  lg:w-2/4 ">
+                    <p class="font-ren text-3xl font-bold text-mycol-0">Dream Vacation Destination</p>
+                    <h2 class="lg:text-5xl text-3xl font-bold my-3 text-mycol2-0">Plan the Trip of a Lifetime with Ease
+                    </h2>
+                    <p>Whether you're looking for a romantic getaway, a family-friendly adventure, or a solo journey to
+                        explore
+                        the world, a travel agency can provide you with a custom-tailored itinerary that exceeds your
+                        expectations.</p>
+                    <a class=" px-4 py-3 inline-block my-4 bg-mycol-0 hover:scale-110    hover:duration-300 duration-300 text-white  text-sm font-bold rounded-md "
+                        href="">START HERE</a>
+                </div>
+                <div class="hidden lg:block lg:w-2/4">
+                    <img class="w-full" src="img/globe2.png" alt="">
+                </div>
+            </div>
         </div>
     </section>
+
+    <section class="w-mywid  mx-auto">
+        <div class="title text-5xl text-center  font-medium my-6 py-4 text-mycol-0">Our Best Offer</div>
+        <div class=" place-list flex gap-3 justify-between items-center flex-wrap">
+            <!-- Product items will be dynamically added here -->
+        </div>
+    </section>
+
+    <section class="text-white py-28 " style="background-image:url(img/banner4.jpeg);">
+        <div class="lg:w-mywid mx-auto" >
+            <div class="flex justify-between lg:flex-row flex-col items-center">
+                <div class="lg:w-1/2 text-center lg:text-start">
+                    <h2 class="text-3xl lg:text-5xl font-bold lg:leading-myheig">Unforgettable Travel Experiences</h2>
+                    <p class="my-5">Our customer's feedback is essential in building a great reputation and maintaining excellent service. By listening to our customer's needs, we can improve our offerings and provide an exceptional travel experience.</p>
+                </div>
+                <div class="lg:w-1/2 text-end">
+                    <img class="w-40 inline-block rounded-full" src="img/Sudip1.jpg" alt="">
+                </div>
+            </div>
+            <div class="flex lg:gap-16  gap-4 justify-between flex-col lg:flex-row items-center  mt-16">
+                <div class="lg:w-1/2 hidden lg:block bg-mycol-0 p-10 lg:text-2xl rounded-3xl">
+                   <p>My husband and I have been using this travel agency for year and they have never disapointed us</p>
+                   <div>
+                    <div class="mt-8 flex items-center gap-4">
+                        <img class="w-12 rounded-full" src="img/g&r.jpg" alt="">
+                        <div>
+                            <p class="text-base font-semibold">Jethalal and Daya</p>
+                            <p class="text-base">India</p>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+                <div class="lg:w-1/2 mx-2 bg-mycol-0 p-10 text-base lg:text-2xl rounded-3xl">
+                  <p>This travel agency made my dream trip to nepal a reality. They worked with me every step of  the way to plan itinerary</p>
+                  <div>
+                    <div class="mt-8 flex items-center gap-4">
+                        <img class="w-12 rounded-full" src="img/kripa.jpg" alt="">
+                        <div>
+                            <p class="text-base font-semibold">Kripa Shrestha</p>
+                            <p class="text-base">Bhaktapur</p>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="bg-slate-200">
+        <div class="w-mywid mx-auto text-center py-20">
+            <p class="font-ren text-3xl lg:text-4xl text-mycol-0 font-bold">Choose your Trip</p>
+            <h2 class="text-2xl lg:text-4xl font-bold text-mycol2-0 mt-6 mb-4">Start your Vacation Now</h2>
+            <p>Looking for your dream vacation destination but don't know where to start? With the help of experienced and knowledgeable travel agents, you can plan the trip of a lifetime with ease.</p>
+           <a class="px-8 py-3 inline-block my-4 bg-mycol-0 hover:scale-90  hover:duration-300 duration-300 text-white  text-sm font-bold rounded-md" href="">SEARCH</a>
+        </div>
+    </section>
+
+    <section class="w-mywid mx-auto">
+        <div class="flex justify-between flex-col lg:flex-row items-center my-20">
+            <div class="lg:w-1/2 text-center lg:text-start">
+                <p class="font-ren text-mycol-0 text-3xl lg:text-4xl font-bold">Wandering Souls</p>
+                <h2 class="text-3xl lg:text-5xl font-bold my-5 text-mycol2-0">Discover Your Next Adventure</h2>
+                <p>Whether you're planning a romantic honeymoon or a family vacation, our price section has got you covered. So, start browsing today and find the perfect vacation package at a price that won't leave you feeling guilty.</p>
+                
+                <div class="my-4">
+                    <p class="my-3">Organized Group Tour</p>
+                    <div class="w-100 bg-gray-300 h-1 relative">
+                        <div class="w-11/12 bg-mycol2-0 absolute h-full"></div>
+                    </div>
+                </div>
+
+                <div class="my-4">
+                    <p class="my-3">Single Customized Trip</p>
+                    <div class="w-100 bg-gray-300 h-1 relative">
+                        <div class="w-9/12 bg-mycol2-0 absolute h-full"></div>
+                    </div>
+                </div>
+
+                <a class="px-8 py-3 inline-block my-4 bg-mycol-0 hover:scale-110  hover:duration-300 duration-300 text-white  text-sm font-bold rounded-md" href="">More Info</a>
+            </div>
+            <div class="lg:w-1/2 text-right ">
+                <img class="inline-block w-adv lg:rounded-l-full " src="img/next-adv.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-white"  style="background-image: linear-gradient(#081321c8, #081321c9), url(img/footer.jpeg);">
+        <div class="w-mywid mx-auto py-24">
+            <div class="flex justify-between lg:items-start flex-col lg:flex-row text-center md:text-start">
+                <div class="lg:w-1/2">
+                    <h2 class=" text-3xl lg:text-5xl font-bold lg:leading-myheig">Travel beyond your imagination, with our Travel Agency!</h2>
+                </div>
+                <div class="lg:w-1/2 flex sm:gap-36 flex-col sm:flex-row">
+                    <div class="mt-8 lg:mt-0">
+                        <h3 class="text-xl font-bold my-3">Address</h3>
+                        <p class="my-3">Baneshwor, Kathmandu</p>
+                        <p class="my-3">Lagankhel, Lalitpur</p>
+                        <p class="my-3">Chabahil, Kathmandu</p>
+                        <div class="text-lg ">
+                            <a class="hover:text-mycol-0 mx-2" href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a class="hover:text-mycol-0 mx-2" href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a class="hover:text-mycol-0 mx-2" href=""><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 lg:mt-0">
+                        <h3 class="text-xl font-bold my-3">Contact</h3>
+                        <p class="my-3">Spsuudeep834@gmail.com</p>
+                        <p class="my-3">+977 9811556489</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -148,7 +274,7 @@
         integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="slick-animation.min.js"></script>
-    <script>
+    <script type="text/javascript">
         $(document).ready(function () {
             $('.banner').slick({
                 infinite: true,
@@ -159,6 +285,8 @@
                 pauseOnHover: false,
             }).slickAnimation();
         });
+
+        
     </script>
 
 </body>
