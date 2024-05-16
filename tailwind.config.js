@@ -10,7 +10,8 @@ module.exports = {
       colors:{
         'mycol':['#06A5E1'],
         'mycol2':['#081321e7'],
-        'mycol3':['#A0A8B3']
+        'mycol3':['#A0A8B3'],
+        'nepal':['#F3F3F4']
       },
       margin:{
         'mymar':['500px']
@@ -30,7 +31,8 @@ module.exports = {
         'newwid1':['48%'],
         'adv':['700px'],
         'fle1':['65%'],
-        'fle2':['35%']
+        'fle2':['35%'],
+        'abwid':['24%']
       },
       backgroundImage: {
         'mybac': "url('img/backglobe1.png')",
@@ -44,6 +46,10 @@ module.exports = {
       fontSize:{
         'myfon':['35px']
       },
+      height:{
+        'myh':['80vh'],
+        'myh2':['40vh']
+      }
     },
   },
   plugins: [],

@@ -41,7 +41,7 @@ function showDetails() {
     }
 
     // Update HTML with product details
-    detail.querySelector('.image img').src = thisProduct.image1;
+    detail.querySelector('.image img').src = thisProduct.image ;
     detail.querySelector('.name').innerText = thisProduct.name;
     detail.querySelector('.day').innerText = thisProduct.day;
     detail.querySelector('.diff').innerText = thisProduct.diff;
